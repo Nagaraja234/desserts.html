@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta Mexicana - Mexican Restaurant</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #d9534f;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .menu-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px 20px;
+        }
+
+        
+        .menu-item1 {
+            background-image: url(https://example.com/images/taco.jpg);
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        
+        .menu-item2 {
+            background-image: url(https://example.com/images/burrito.jpg);
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        
+        .menu-item3 {
+            background-image: url(https://example.com/images/quesadilla.jpg);
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+
+        .menu-item4 {
+            background-image: url(https://example.com/images/nachos.jpg);
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 2px solid #d9534f;
+        }
+
+        .menu-item h3 {
+            font-size: 1.6em;
+            color: #d9534f;
+            margin: 10px 0;
+        }
+
+        .menu-item p {
+            color: #666;
+            padding: 0 10px;
+        }
+
+        .menu-item .price {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #d9534f;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fiesta Mexicana</h1>
+        <p>The Best Mexican Food in Town</p>
+    </header>
+
+    <section class="menu-section">
+        <!-- Taco -->
+        <div class="menu-item1">
+            <h3>Beef Taco</h3>
+            <p>Delicious ground beef, fresh lettuce, cheese, and salsa.</p>
+            <span class="price">$4.99</span>
+        </div>
+
+        <!-- Burrito -->
+        <div class="menu-item2">
+            <h3>Chicken Burrito</h3>
+            <p>Flour tortilla filled with seasoned chicken, rice, beans, and veggies.</p>
+            <span class="price">$7.99</span>
+        </div>
+
+        <!-- Quesadilla -->
+        <div class="menu-item3">
+            <h3>Cheese Quesadilla</h3>
+            <p>Grilled tortilla with melted cheese, served with salsa.</p>
+            <span class="price">$5.49</span>
+        </div>
+
+        <!-- Nachos -->
+        <div class="menu-item4">
+            <h3>Loaded Nachos</h3>
+            <p>Crispy tortilla chips topped with melted cheese, jalapeños, and sour cream.</p>
+            <span class="price">$6.99</span>
+        </div>
+    </section>
+    
+    <button onclick="document.location='http://127.0.0.1:5500/Project/Order%20now.html'">ORDER NOW</button>
+ 
+
+    <footer>
+        <p>&copy;  All Rights Reserved,2025.</p>
+        <p>Visit us at: 123 Tales Restaurant, Mumbai</p>
+    </footer>
+
+</body>
+</html>
